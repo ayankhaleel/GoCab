@@ -1,0 +1,236 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    background-image:url(https://wallpapers.com/images/hd/yellow-taxi-beside-pedestrian-lane-2w4kdu3bvrf6rqei.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body{
+    background-color: rgb(0, 0, 0) ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+}
+.logo{
+     width: 128px;
+
+
+}
+.buttons{
+   margin-left: 100px;
+   margin-top: 8px;
+}
+
+.button-top{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+    word-spacing: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.button-top:hover{
+    background-color: #c98300;
+    color: black;
+    transition: color 1s, background-color 1s,opacity 2s, font-size 1s, letter-spacing 1s;
+    border-radius: 10px ;
+    font-size: 19px ;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.button-top:active{
+        background-color: white;
+        transition: background-color 0.1s;
+        color: #000000;
+
+}
+.theme1{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.help-button{
+    margin-right: 17px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-left: 115px;
+}
+
+.login-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.login-button:hover{
+  background-color: #c98300;
+  transition: background-color 1s;
+}
+
+.help-button:hover{
+    background-color: #000000;
+    color: #c98300;
+    transition: color 1s, background-color 1s;
+    border-radius: 10px ;
+    cursor: pointer;
+    background: none;
+    text-decoration: solid, underline;
+    
+}
+
+.login-adjust{
+    margin-left: 800px;
+    margin-top: 20px;
+    
+}
+
+.slogan{
+    text-align: center;
+    color: #e09a1a;
+    font-family: poppins;
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 30px;
+  text-align: center;
+  color: #c98300;
+  padding: 10px;
+  width: 500px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.date-time-group {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.date-time-group select,
+.date-time-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #c98300;
+  transition: background-color 1s, letter-spacing 3s;
+  letter-spacing: 1px;
+
+}
+
+.mapouter{
+   position:relative;
+   text-align:end;
+   width:50%;
+   height:50%;
+   float: right;
+   margin-top: 30px;
+
+  }
+
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:80%;
+    height:400px;
+    margin-bottom: 200px;
+    display: flex;
+    margin-top: 90px;
+  }
+   .gmap_iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .gmap_iframe:hover{
+    opacity: initial;
+  }
+
+  .b50{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+  
+ 
+  
+
